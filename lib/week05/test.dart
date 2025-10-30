@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
-            child: Text('반가워요');
+            Text('반가워요');
           });
         },
         child: Icon(Icons.refresh),
