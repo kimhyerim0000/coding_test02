@@ -9,6 +9,7 @@
 // 예시 화면
 // 앱 실행 시: 중앙에 “안녕하세요” 표시
 // 버튼 클릭 시: “반가워요” 로 변경
+import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
