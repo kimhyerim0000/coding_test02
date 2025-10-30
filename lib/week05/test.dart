@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Icon(Icons.refresh),
       )
       body: Center(
-        child: Text('안녕하세요');
+        child: Text('안녕하세요'),
       )
     );
   }
