@@ -22,6 +22,14 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          setState(() {
+            child: Text('반가워요');
+          });
+        },
+        child: Icon(Icons.refresh),
+      )
       body: Center(
         child: Text('안녕하세요');
       )
